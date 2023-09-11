@@ -1,0 +1,28 @@
+.container {
+    width: 94%;
+    height: 4rem; 
+    margin: 1rem;
+    }
+
+@media (max-width: 420px) {
+    .container {
+        background-color: #8E5572;
+    }
+
+        h1::after
+        {
+            content: "roxo"
+        }
+    }
+    
+    @media (min-width:420px) and (max-width: 768px) {
+        h1::before
+        {
+            content: "azul"
+        }
+
+        .container {
+        background-color: #C6D8FF;
+        }
+        
+    }
