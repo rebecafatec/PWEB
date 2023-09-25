@@ -5,13 +5,13 @@ function inicia(){
     var verificador=true;
 
     if(resposta==1){
-        opcaoe+="Pedra";
+        voceescolheu+="Pedra";
     }
     else if(resposta==2){
-        opcaoe+="Papel";
+        voceescolheu+="Papel";
     }
     else if(resposta==3){
-        opcaoe+="Tesoura";
+        voceescolheu+="Tesoura";
     }
 
     if(opcao===resposta){
