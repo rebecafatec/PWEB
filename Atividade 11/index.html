@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 11</title>
+  </head>
+  <body>
+    <script>
+      const aluno1 = {
+        ra: "0030482211040",
+        nome: "Rebeca",
+      };
+      alert("Aluno 1 - RA: " + aluno1.ra + " Nome: " + aluno1.nome);
+
+      const aluno2 = new Object();
+      aluno2.ra = "00030482211050";
+      aluno2.nome = "Kehlani";
+      alert("Aluno 2 - RA: " + aluno2.ra + " Nome: " + aluno2.nome);
+
+      var aluno3 = {};
+      aluno3.ra = "0030482211055";
+      aluno3["nome"] = "Jackson";
+      alert("Aluno 3 - RA: " + aluno3.ra + " Nome: " + aluno3.nome);
+
+      function Aluno(ra, nome) {
+        this.ra = ra;
+        this.nome = nome;
+
+        this.MostraDados = function () {
+          alert("RA: " + this.ra + " Nome: " + this.nome);
+        };
+      }
+
+    </script>
+  </body>
+</html>
